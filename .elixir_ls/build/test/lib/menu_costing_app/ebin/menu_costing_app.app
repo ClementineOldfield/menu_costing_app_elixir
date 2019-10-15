@@ -1,0 +1,9 @@
+{application,menu_costing_app,
+             [{applications,[kernel,stdlib,elixir,logger,postgrex,ecto_sql]},
+              {description,"menu_costing_app"},
+              {modules,['Elixir.MenuCostingApp',
+                        'Elixir.MenuCostingApp.Application',
+                        'Elixir.MenuCostingApp.Repo']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.MenuCostingApp.Application',[]}}]}.
